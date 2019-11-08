@@ -4,8 +4,8 @@ import sys
 from cx_Freeze import setup, Executable
 
 
-os.environ['TCL_LIBRARY'] = 'C:\\Users\\XXXX\\Anaconda3\\tcl\\tcl8.6'
-os.environ['TK_LIBRARY'] = 'C:\\Users\\XXXX\\Anaconda3\\tcl\\tk8.6'
+os.environ['TCL_LIBRARY'] = 'C:\\Users\\void\\Anaconda3\\tcl\\tcl8.6'
+os.environ['TK_LIBRARY'] = 'C:\\Users\\void\\Anaconda3\\tcl\\tk8.6'
 
 build_exe_options = {}
 
