@@ -1,0 +1,36 @@
+h1{
+    font-family: 'Barrio', cursive;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+td{
+    width: 200px;
+    height: 400px;
+}
+
+#a{
+    background: #247BA0;
+}
+
+#b{
+    background: #70c1b3;
+}
+
+#c{
+    background: #b2dbbf;
+}
+
+#d{
+    background: #f3ffbd;
+}
+
+#e{
+    background: #ff1654;
+}
