@@ -1,4 +1,4 @@
-#!/mnt/c/wsl_home/.pyenv/py382/bin/python
+#!/usr/bin/env python
 
 # mclip.py - A multi-clipboard program.
 
