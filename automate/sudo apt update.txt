@@ -1,0 +1,27 @@
+sudo apt update
+sudo apt upgrade
+pip3 install -U pip
+pip3 install -U setuptools
+mkdir jupyter
+cd jupyter
+python3 -m venv .venv
+$ env |grep PATH
+PATH=/home/ubuntu/.local/bin:　確認
+
+source .venv/bin/activate
+
+pip install jupyterlab
+$ jupyter lab --generate-config
+$ vi ~/.jupyter/jupyter_notebook_config.py
+
+#  Disabling this setting to False will disable this behavior, allowing the
+#  browser  to launch by using a URL and visible token (as before).
+#c.NotebookApp.use_redirect_file = True
+c.NotebookApp.use_redirect_file = False
+
+pip install numpy scipy pandas matplotlib scikit-learn tensorflow keras plotly_express ----use-feature=2020-resolver
+
+$ jupyter lab
+
+Extensions
+https://qiita.com/kirikei/items/a1639954ce5ccaf7ac3c
