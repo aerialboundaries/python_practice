@@ -11,5 +11,5 @@ else:
     # Get address from clipboard.
     adress = pyperclip.paste()
 
-webbrowser.open('https://www.google.com/maps/place/' + address)
+webbrowser.open('https://www.google.com/maps/place/' + adress)
 
